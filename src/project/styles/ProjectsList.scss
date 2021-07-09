@@ -1,0 +1,26 @@
+.ProjectsList {
+  h1 { margin-bottom: 30px; }
+  .card {
+    border: 2px solid #296EB4;
+    .keys, .values {
+      padding: 0;
+      text-decoration: none;
+      display: grid;
+      grid-template-columns: 20% 40% 20% 20%;
+      .title, .text {
+        margin: 0;
+        padding: 20px 0 20px 0;
+        text-align: center;
+        border: 1px solid #296EB4;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title {
+        color: white;
+        background-color: #296EB4;
+        text-transform: uppercase; }
+    }
+  }
+}

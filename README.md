@@ -1,5 +1,16 @@
 # OmniVision
 
+### Pour Mickael DROZD
+Je suis vraiment désolé, je n'ai pas pu respecter le workflow, car ça faisait planter le container nginx pour une raison que j'ignore.
+Pour être franc, je viens tout juste de faire la connaissance de Docker.
+Après plusieurs tentatives, je me suis résigné à ne travailler que sur une seule branche : "araik".
+
+Dans le cas où je n'aurais pas rencontré de problèmes, j'aurais adopté le workflow suivant :
+
+dev
+araik
+projectsList // projectsDetails // tests
+
 ### Requirements
 
 Applications needed to work on this project :

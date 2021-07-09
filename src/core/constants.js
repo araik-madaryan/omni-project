@@ -18,7 +18,7 @@ export const ROUTING = {
     PARAMS: '',
   },
   PROJECT: {
-    PATH: '/project/:projectId',
+    PATH: '/project/:id',
     PARAMS: '',
   },
   CALENDAR: {

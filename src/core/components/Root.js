@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import * as coreConstants from '../constants';
 import { store } from '../store';
 import App from './App';
+import ProjectDetails from '../../project/components/ProjectDetails';
 import Error404 from './Error404';
 import HomePage from '../../home/components/HomePage';
 import Calendar from '../../calendar/components/Calendar';
@@ -26,6 +27,7 @@ class Root extends PureComponent<Props, State> {
           <Switch>
             <Route exact path={ROUTING.DEFAULT.PATH} component={HomePage} />
             <Route path={ROUTING.CALENDAR.PATH} component={Calendar} />
+            <Route path={ROUTING.PROJECT.PATH} component={ProjectDetails} />
             <Route component={Error404} />
           </Switch>
         </App>

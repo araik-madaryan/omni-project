@@ -1,0 +1,82 @@
+.ProjectDetails {
+  header {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 { font-size: 25px; }
+    button {
+      margin: 0;
+      padding: 5px 10px 5px 10px;
+      color: white;
+      background-color: #1789FC;
+      border: none;
+      border-radius: 5px;
+      &:hover { background-color: #296EB4; }
+    }
+  }
+  .cardInformations, .cardResources {
+    padding: 5px 0 5px 0;
+    border: 2px solid #296EB4;
+    border-radius: 5px;
+  }
+  .cardInformations {
+    margin-bottom: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    p {
+      margin: 0;
+      padding: 10px 0 10px 0;
+      text-align: center;
+      font-size: 16px;
+      .text { font-weight: 500; display: block; }
+    }
+  }
+  .cardResources {
+    padding-bottom: 40px;
+    h3 {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 0 20px 0;
+      font-size: 20px;
+    }
+    .keys, .values {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      .title {
+        margin: 0;
+        padding: 10px 0 10px 0;
+        color: white;
+        background-color: #296EB4;
+        border: 1px solid #296EB4;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .values {
+      .text {
+        margin: 0;
+        padding: 10px 0 10px 0;
+        border: 1px solid #296EB4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .ProjectDetails {
+    .cardInformations {
+      grid-template-columns: 100%;
+    }
+  }
+}
