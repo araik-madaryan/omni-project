@@ -6,9 +6,9 @@ Après plusieurs tentatives, je me suis résigné à ne travailler que sur une s
 
 Dans le cas où je n'aurais pas rencontré de problèmes, j'aurais adopté le workflow suivant :
 
-dev
-araik
-projectsList // projectsDetails // tests
+(dev)
+(araik)
+(projectsList // projectsDetails // tests)
 
 ### Requirements
 
